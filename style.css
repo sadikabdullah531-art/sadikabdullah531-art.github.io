@@ -1029,3 +1029,123 @@ nav a:hover::after {
     height: 23px;
     fill: white;
 }
+
+/* =========================================================
+   DETAILED PRODUCT INFORMATION
+   ========================================================= */
+
+.product-details {
+    background: #f7f2ed;
+    border-left: 3px solid #c9975b;
+    padding: 16px 18px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.product-details p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #5f5651;
+}
+
+.product-details p:last-child {
+    margin-bottom: 0;
+}
+
+.product-details strong {
+    color: #332a26;
+}
+
+
+/* =========================================================
+   COLLECTIONS PAGE INTRO
+   ========================================================= */
+
+.services-page {
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.services-page > h1 {
+    font-size: 50px;
+    color: #2b2522;
+    margin: 10px 0 20px;
+}
+
+.services-page > .intro {
+    max-width: 750px;
+    margin: 0 auto 15px;
+    color: #6c625d;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   PRODUCT LABEL
+   ========================================================= */
+
+.product-content .section-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    color: #b78348;
+}
+
+
+/* =========================================================
+   PRODUCT CARD IMPROVEMENTS
+   ========================================================= */
+
+.product-content {
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-content .whatsapp-button {
+    margin-top: auto;
+}
+
+
+/* =========================================================
+   COLLECTIONS MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .services-page {
+        padding: 65px 20px;
+    }
+
+    .services-page > h1 {
+        font-size: 38px;
+    }
+
+    .services-page > .intro {
+        font-size: 16px;
+    }
+
+    .product-content {
+        min-height: auto;
+    }
+
+    .product-details {
+        padding: 15px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .services-page {
+        padding: 55px 15px;
+    }
+
+    .services-page > h1 {
+        font-size: 32px;
+    }
+
+}
